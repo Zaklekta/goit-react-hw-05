@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+.contentWrap {
+  width: 800px;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+.score {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.genresText {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.genresList {
+  display: flex;
+  gap: 12px;
+}
+.genresItem {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  font-style: italic;
+}
