@@ -1,0 +1,23 @@
+.reviewItem {
+  padding: 10px;
+  border: 1px solid #4d5ae5;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.reviewAuthor {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+.reviewAuthorBold {
+  font-weight: 700;
+}
+
+.reviewText {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}

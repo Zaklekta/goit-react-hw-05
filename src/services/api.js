@@ -36,3 +36,13 @@ export const getCastInfo = async (movieId) => {
   );
   return data;
 };
+
+export const getMovieReviews = async (movieId) => {
+  const searchParams = new URLSearchParams({
+    api_key: "43688c617df5a43779f16acd97cb09c2",
+  });
+  const { data } = await axios.get(
+    `3/movie/${movieId}/reviews?${searchParams}`
+  );
+  return data;
+};
